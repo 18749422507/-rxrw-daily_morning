@@ -23,10 +23,10 @@ jobs:
     - run: pip install -r ./requirements.txt && python ./main.py
 
     env:
-      APP_ID: ${{ secrets.APP_ID }}
-      APP_SECRET: ${{ secrets.APP_SECRET }}
-      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
-      USER_ID: ${{ secrets.USER_ID }}
+      APP_ID: ${{ wxb4f5fa52db111f35 }}
+      APP_SECRET: ${{ c3af9def3435816c1eb4f5c0c5ecb94c }}
+      TEMPLATE_ID: ${{Sc_WTsrRD0RuP1_Gre2yrl2xbnjBIdKMbaSICw1N4gI }}
+      USER_ID: ${{oO-5B55FxNKNKY0AGjpWOCmQ4TDI }}
       START_DATE: ${{ secrets.START_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
       CITY: ${{ secrets.CITY }}
